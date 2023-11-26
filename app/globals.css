@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+input {
+  padding: 0.75rem;
+  /* padding: 12px */
+}
+
+input:focus {
+  outline: none;
+}
+
+textarea {
+  padding: 0.75rem;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+body {
+  background: rgb(243, 237, 237);
+}
